@@ -1,0 +1,60 @@
+/* .service {
+    background: url('/public/images/service.jpg')  center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+    display:inligne-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit:scale-down;
+   
+  } */
+
+  .service {
+    background: url('/public/images/service.jpg')  center/cover no-repeat;
+    height: 90vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    display:grid;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit:scale-down;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .shine{
+      font-size: 4rem;
+      background-color: #eb2f12;
+      background-size: 100%;
+      background-image: linear-gradient(to top, #080505 0%, #ce5007 100%);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color:transparent;
+      -moz-text-fill-color:transparent;
+      font-weight: bold;
+  }
+
+  @media screen and (max-width: 960px) {
+    .service {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .service {
+      font-size: 50px;
+      margin-top: auto;
+       
+    }
+    .shine {
+        display: block;
+        text-decoration: none;
+      }
+  
+}
