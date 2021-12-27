@@ -9,13 +9,13 @@ function AboutUs() {
          <ul className='cards__items'>
             <CardItem
                 src='images/hiring.jpg'
-                text='Drop your CV+Portfolio on delodesignarchitects.portfolio.com'
+                text='Drop your CV+Portfolio on delodesignarchitects.portfolio@gmail.com'
                 label='Job Location : Surat'
                 path='/Contact-Us'
             />
              <CardItem
                 src='images/hiring.jpg'
-                text='Drop your CV+Portfolio on delodesignarchitects.portfolio.com'
+                text='Drop your CV+Portfolio on delodesignstudio@gmail.com'
                 label='Job Location : Surat'
                 path='/Contact-Us'
             />
