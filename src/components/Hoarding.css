@@ -17,15 +17,15 @@
   }
   
   .hero-container > p {
-    margin-top: 8px;
+    margin-top: 4px;
     color: #fff;
     font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+         font-family: cursive;
+      font-weight:bolder;
   }
   
   .hero-btns {
-    margin-top: 32px;
+    margin-top: 350px;
   }
   
   .hero-btns .btn {

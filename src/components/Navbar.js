@@ -57,15 +57,36 @@ function Navbar() {
                                 Projects
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link
+                                to='/About-Us'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Our Team
+                            </Link>
+                        </li>
+                        {/* <li className='nav-item'>
+                            <Link
+                                to='/Career'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Career
+                            </Link>
+                        </li> */}
+
                         <li>
                             <Link
                                 to='/contact-us'
                                 className='nav-links-mobile'
                                 onClick={closeMobileMenu}
                             >
-                                Contact Us              </Link>
+                                Contact Us            
+                                  </Link>
                         </li>
                     </ul>
+
                     {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
                 </div>
             </nav>

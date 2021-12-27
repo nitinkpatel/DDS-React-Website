@@ -6,22 +6,25 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
+      
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>Our Team</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
+            <Link to='/About-Us'>Our Team</Link>
+            <Link to='/Testi'>Testimonials</Link>
+            <Link to='/Career'>Careers</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Follow Us</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/Social'>Instagram</Link>
+            <Link to='/Social'>Facebook</Link>
+            <Link to='/Social'>Twitter</Link>
+            
           </div>
         </div>
       </div>
+
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -32,7 +35,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='/Social'
               target='_blank'
               aria-label='Facebook'
             >
@@ -40,7 +43,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/Social'
               target='_blank'
               aria-label='Instagram'
             >
@@ -48,7 +51,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='/Social'
               target='_blank'
               aria-label='Youtube'
             >
@@ -56,7 +59,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/Social'
               target='_blank'
               aria-label='Twitter'
             >
@@ -64,7 +67,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/Social'
               target='_blank'
               aria-label='LinkedIn'
             >
@@ -72,9 +75,11 @@ function Footer() {
             </Link>
           </div>
           </>
+        
           </div>
 
       </section>
+
     </div>
   );
 }
