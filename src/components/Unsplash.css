@@ -21,14 +21,13 @@
       background-color: #eb2f12;
       background-size: 100%;
       background-image: linear-gradient(to top, #080505 0%, #ce5007 100%);
+      background-clip: content-box;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color:transparent;
       -moz-text-fill-color:transparent;
       font-weight: bold;
-      
-
-  }
+        }
   .para {
     font-size: 30px;
     background-color: #af8c64;
