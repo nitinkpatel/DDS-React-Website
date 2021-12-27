@@ -7,7 +7,7 @@ function Unsplash() {
     return (
         
         <div className='service'>
-        <p className='para'> Our services for projects in the fields of residential and commercial architecture, health care, master planning and urban culture.</p>
+        <p className='para'> We serve projects in the fields of residential and commercial architecture, health care, master planning and urban culture.</p>
            <button className='shine'>Architecture</button>
            <button className='shine'>Planning</button>
            <button className='shine'>Interior</button>

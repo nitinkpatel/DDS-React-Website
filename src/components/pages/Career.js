@@ -13,6 +13,12 @@ function AboutUs() {
                 label='Job Location : Surat'
                 path='/Contact-Us'
             />
+             <CardItem
+                src='images/hiring.jpg'
+                text='Drop your CV+Portfolio on delodesignarchitects.portfolio.com'
+                label='Job Location : Surat'
+                path='/Contact-Us'
+            />
             </ul>
 
             <Footer />
