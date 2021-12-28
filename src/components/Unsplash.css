@@ -27,6 +27,9 @@
       -webkit-text-fill-color:transparent;
       -moz-text-fill-color:transparent;
       font-weight: bold;
+      font-family:serif;
+      margin-bottom: 10px;
+
         }
   .para {
     font-size: 30px;

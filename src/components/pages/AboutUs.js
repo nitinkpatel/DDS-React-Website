@@ -6,6 +6,7 @@ import CardItem from '../CardItem';
 function AboutUs() {
     return (
         <>
+        <main>
         <div className='cards__wrapper'>
                  <ul className='cards__items'>
 
@@ -21,14 +22,15 @@ function AboutUs() {
               label='Our Team'
               path='/About-Us'
             />
-               <CardItem
+               {/* <CardItem
               src='images/team2.jpg'
               text='Labour Contractors, Carpenters, Artist, Electrician, Painters'
               label='Our Team'
               path='/About-Us'
-            />
+            /> */}
             </ul>
             </div>
+            </main>
         <Footer />
     </>
     )
