@@ -7,7 +7,7 @@ function AboutUs() {
     return (
         <>
         <main>
-        <div className='cards__wrapper'>
+        <div className='cards__wrapper & section'>
 
          <ul className='cards__items'>
             <CardItem
