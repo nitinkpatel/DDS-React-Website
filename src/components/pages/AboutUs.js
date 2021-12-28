@@ -21,6 +21,12 @@ function AboutUs() {
               label='Our Team'
               path='/About-Us'
             />
+               <CardItem
+              src='images/team2.jpg'
+              text='Labour Contractors, Carpenters, Artist, Electrician, Painters'
+              label='Our Team'
+              path='/About-Us'
+            />
             </ul>
             </div>
         <Footer />

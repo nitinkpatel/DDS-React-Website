@@ -139,13 +139,10 @@
   
   @media screen and (max-width: 820px) {
 
-    .footer-container {
-      height: 50vh;
-    }
+    
 
     .footer-links {
       padding-top: 2rem;
-      height: 50vh;
     }
   
     .footer-input {
