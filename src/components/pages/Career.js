@@ -13,15 +13,15 @@ function AboutUs() {
             <CardItem
                 src='images/hiring.jpg'
                 text='Drop your CV+Portfolio on delodesignarchitects.portfolio@gmail.com'
-                label='Open Position: Intern'
+                label='Open Positions: Interns and Designers'
                 path='/Contact-Us'
             />
-             <CardItem
+             {/* <CardItem
                 src='images/hiring.jpg'
                 text='Drop your CV+Portfolio on delodesignstudio@gmail.com'
                 label='Open Position: Designer'
                 path='/Contact-Us'
-            />
+            /> */}
       
             </ul>
 
