@@ -19,7 +19,7 @@ style={{ border: 0 }} >
 </iframe>
 
 
-<Footer/>
+{/* <Footer/> */}
 </div>
         )
 }

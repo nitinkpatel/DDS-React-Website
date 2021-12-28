@@ -27,7 +27,7 @@ function AboutUs() {
 
 </div>
 </main>
-            <Footer />
+            {/* <Footer /> */}
             </>
     )
 }
