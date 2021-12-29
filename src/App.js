@@ -11,11 +11,13 @@ import AboutUs from './components/pages/AboutUs';
 import Career from './components/pages/Career';
 import Testi from './components/pages/Testi'
 import Social from './components/Social';
+import ScrollToTop from './components/pages/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
