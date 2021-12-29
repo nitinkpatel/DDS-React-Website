@@ -69,5 +69,22 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .para {
+        font-size: 30px;
+        background-color: #af8c64;
+        font-style: italic;
+        font-family:serif;
+        color:#fff;
+        opacity: 0.8;
+        font-weight: bold;
+        padding: 10px;
+        text-align:center;
+        box-sizing: border-box;
+        box-shadow: var(--dark-shadow);
+        border-radius: var(--radius);
+        margin-right: 30px;
+  
+    
+        }
   
 }

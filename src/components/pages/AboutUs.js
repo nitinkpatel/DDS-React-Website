@@ -7,8 +7,7 @@ function AboutUs() {
     return (
         <>
          <p className='para'> We associate our work with the dual technical-cultural mission to improve the quality of life of prospective clients and future generations.</p>
-        <main>
-        <div className='cards__wrapper & section'>
+        <div className='cards__wrapper'>
                  <ul className='cards__items'>
 
        <CardItem
@@ -31,7 +30,6 @@ function AboutUs() {
             /> */}
             </ul>
             </div>
-            </main>
         <Footer />
     </>
     )

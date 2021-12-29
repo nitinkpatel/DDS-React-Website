@@ -10,24 +10,24 @@ function AboutUs() {
         <div className='cards__wrapper & section'>
 
          <ul className='cards__items'>
-            <CardItem
+            {/* <CardItem
                 src='images/hiring.jpg'
                 text='Drop your CV+Portfolio on delodesignarchitects.portfolio@gmail.com'
-                label='Open Positions: Interns and Designers'
-                path='/Contact-Us'
-            />
-             {/* <CardItem
-                src='images/hiring.jpg'
-                text='Drop your CV+Portfolio on delodesignstudio@gmail.com'
-                label='Open Position: Designer'
+                label='Open Positions: Intern'
                 path='/Contact-Us'
             /> */}
+             <CardItem
+                src='images/hiring.jpg'
+                text='Drop your CV+Portfolio on delodesignstudio@gmail.com'
+                // label='Open Position: Designer'
+                path='/Contact-Us'
+            />
       
             </ul>
 
 </div>
 </main>
-            {/* <Footer /> */}
+            <Footer />
             </>
     )
 }
